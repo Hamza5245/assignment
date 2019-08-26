@@ -1,0 +1,44 @@
+.parent{
+    width: 100vw;
+    height: 500px;
+}
+#road{
+width: 100vw;
+height: 500px;
+position: relative;
+
+}
+img{
+    width: 100vw;
+    height: 500px;
+}
+#car{
+    height: 200px;
+    width: 200px;
+    border: 2px solid red;
+    position: relative;
+    bottom: 220px;
+    left: 10px;
+    transition:left 6s linear 2s;
+
+}
+#car:hover
+{
+    left: 1000px;
+}
+#carimg
+{
+    height: 100%;
+    width: 100%;
+}
+#signal{
+    width: 100px;
+    height:100px;
+}
+#pic{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
